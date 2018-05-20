@@ -75,14 +75,52 @@
 
 .proj {
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
+}
+
+.proj p {
+  line-height: 1.5;
+  margin: 25px 0;
+}
+
+.proj h1 {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.proj img {
+  width: 100%;
 }
 
 .white {
   background-color: #fff;
 }
 
+/* blog */
+
+.contain-post {
+  display: flex;
+  margin: 0 10px;
+}
+
+.archive {
+  display: none;
+}
+
 @media screen and (min-width: 961px) {
+
+  .contain-post {
+    margin: 0;
+  }
+
+  .archive {
+    display: block;
+  }
+
+  .proj {
+    width: 80%;
+  }
+
   .circle {
     top: 39%;
   }

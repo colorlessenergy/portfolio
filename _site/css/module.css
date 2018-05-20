@@ -85,7 +85,7 @@
 
 .work__image {
   height: 450px;
-  background-color: orange;
+  background-color: #222;
   width: 87%;
 }
 
@@ -132,9 +132,26 @@
 /* blog */
 
 .post__contain {
-  align-items: center;
   display: flex;
-  justify-content: space-between;
+  margin: 30px 0;
+  flex-direction: column;
+}
+
+.post__meta {
+  margin: 20px 0;
+}
+
+.post__title {
+  margin-top: 0;
+  text-decoration: underline;
+}
+
+.post__img {
+  width: 100%;
+}
+
+.post__img img {
+  width: 100%;
 }
 
 @media screen and (min-width: 961px) {
@@ -142,11 +159,6 @@
     flex-direction: unset;
     text-align: initial;
   }
-
-  .work-main {
-    margin: 0;
-  }
-
   .work__image {
     width: 70%;
   }
@@ -182,5 +194,19 @@
 
   .cards {
     padding: 30px 0;
+  }
+
+  /* blog */
+
+  .post__contain {
+    flex-direction: row;
+  }
+
+  .post__img {
+    width: 35%;
+  }
+
+  .post__meta {
+    margin: 0 30px;
   }
 }
