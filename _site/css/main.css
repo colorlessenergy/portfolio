@@ -7,11 +7,7 @@ body {
 a {
    color: #000;
    text-decoration: none;
-}
-
-li {
-  list-style-type: disc;
-}
+ }
 
 main {
   margin: 1em 2em;
@@ -90,9 +86,23 @@ p {
   font-weight: 900;
 }
 
-.title {
-  margin: 50px;
-  padding: 50px;
+.bio {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bio__pic {
+  border: 3px solid #000;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.bio__title {
+  font-size: 20px;
+  margin: 10px 0;
 }
 
 .proj {
@@ -138,6 +148,10 @@ p {
   margin-bottom: 45px;
 }
 
+.cards__title  {
+  margin-top: 0;
+}
+
 .row {
   align-items: center;
   display: flex;
@@ -179,6 +193,7 @@ p {
 }
 
 .skills_sub {
+  list-style-type: disc;
   margin: 0 0 0 50px;
 }
 
