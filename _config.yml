@@ -1,0 +1,5 @@
+baseurl: ''
+
+collections:
+  projects:
+      output: true

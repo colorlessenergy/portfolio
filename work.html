@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% for project in site.projects %}
+<section class="work {{ project.class }}">
+  <h2 class="work__title">{{ project.title }}</h2>
+  <a href="{{ project.url }}">
+    <img src="images/forest.jpg" class="work__image"></img>
+  </a>
+  <div class="work__center">
+    <p class="work__desc">
+      {{ project.descone }}
+      <br />
+      {{ project.desctwo }}
+    </p>
+
+    <p class="work__margin"> <a class="work__link" href="{{ project.url }}">view project</a> </p>
+  </div>
+</section>
+{% endfor %}

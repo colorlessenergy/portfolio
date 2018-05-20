@@ -1,0 +1,35 @@
+body {
+  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+a {
+   color: #000;
+   text-decoration: none;
+}
+
+li {
+  list-style-type: disc;
+}
+
+main {
+  margin: 1em 2em;
+}
+
+ul {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+@media screen and (min-width: 961px) {
+  main {
+    margin: 2em 4em;
+  }
+}
