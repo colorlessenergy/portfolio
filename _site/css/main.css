@@ -255,6 +255,14 @@ p {
   margin: 1em 2em;
 }
 
+/* blog */
+
+.post__contain {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
 @media screen and (min-width: 961px) {
   .row {
     flex-direction: unset;
