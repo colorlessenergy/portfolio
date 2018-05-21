@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
   </head>
   <body>
-    <main class="{% if page.url == "/work.html" %}work-main{% endif %}">
+    <main {% if page.url == "/work.html" %}class="work-main"{% endif %}>
       {% include nav.html %}
       {{ content }}
     </main>

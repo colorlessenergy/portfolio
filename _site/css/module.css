@@ -125,10 +125,6 @@
   margin: 0;
 }
 
-.work-nav {
-  margin: 1em 2em;
-}
-
 /* blog */
 
 .post__contain {
@@ -161,10 +157,6 @@
   }
   .work__image {
     width: 70%;
-  }
-
-  .work-nav {
-    margin: 2em 4em;
   }
 
   .cards {
