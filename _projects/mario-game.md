@@ -14,9 +14,14 @@ class: white
 </a>
 
 ## what this is
-This is a recreation of the famous mario game. The controls for the game are
-the arrows keys to move and jump.
 
+<!-- This is a recreation of the famous mario game. The controls for the game are
+the arrows keys to move and jump. -->
+
+I remember playing Mario when I was younger. It is one of the reasons why I started
+to learn programming. Doing this project taught me a lot about how powerful
+plain JavaScript can be when you understand what is happening. I also tried out
+vs code instead of atom.
 
 ## built with
 

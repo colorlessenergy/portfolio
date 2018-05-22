@@ -6,3 +6,31 @@ link: https://colorlessenergy.github.io/kube/
 layout: project
 class: ''
 ---
+
+# Kube: animations
+
+<a href="https://colorlessenergy.github.io/kube/">
+    ![mario game]({{ site.baseurl }}/images/mario-game.png "mario game")
+</a>
+
+## what this is
+<!-- this is a site to showcase a product. This site was made to understand how
+to animate with CSS. -->
+
+I made this site because I wanted to understand how to to animate properly in
+CSS. I decided to not use any libraries or frameworks since I wanted to understand
+what really is going on under the roof.
+
+
+## built with
+
+* HTML
+* CSS
+* JavaScript
+  * jQuery
+  * OWL carousel
+
+## challenges
+
+* Animations
+* reading docs
