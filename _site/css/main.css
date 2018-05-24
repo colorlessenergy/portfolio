@@ -116,6 +116,9 @@ p {
 }
 
 .proj {
+  align-items: center;
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
   width: 100%;
 }
@@ -131,6 +134,7 @@ p {
 }
 
 .proj img {
+  max-width: 750px;
   width: 100%;
 }
 
