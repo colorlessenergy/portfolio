@@ -5,12 +5,13 @@ desctwo: A very interesting site.
 link: https://colorlessenergy.github.io/kube/
 layout: project
 class: ''
+image: /images/kube.png
 ---
 
 # Kube: animations
 
 <a href="https://colorlessenergy.github.io/kube/">
-    ![mario game]({{ site.baseurl }}/images/mario-game.png "mario game")
+    ![kube]({{ site.baseurl }}/images/kube.png "kube")
 </a>
 
 ## what this is

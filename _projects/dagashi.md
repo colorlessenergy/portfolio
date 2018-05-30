@@ -5,12 +5,13 @@ desctwo: a site selling japanese candy.
 link: https://dagashi.netlify.com
 layout: project
 class: white
+image: /images/dagashitoyou.png
 ---
 
 # dagashi
 
 <a href="https://dagashi.netlify.com">
-    ![Dagshi]({{ site.baseurl }}/images/mario-game.png "mario game")
+    ![Dagshi]({{ site.baseurl }}/images/dagashitoyou.png "dagsahi")
 </a>
 
 ## what this is
@@ -20,7 +21,7 @@ Japanese candy. This site uses snipcart for the E-commerce. It also has
 the Netlify cms. Both snipcart and Netlify cms use Github as the backend -->
 
 I made this site because I wanted to know how to sell items online. I also wanted
-to make a static site because I didn't want the monolithic structure that modern sites have today. With these constraints I built a site using snipcart and the netlify cms. I chose to make a static site to make it easier for a potential client to delete and add content to the page. 
+to make a static site because I didn't want the monolithic structure that modern sites have today. With these constraints I built a site using snipcart and the netlify cms. I chose to make a static site to make it easier for a potential client to delete and add content to the page.
 
 ## built with
 
