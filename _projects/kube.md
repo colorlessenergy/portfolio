@@ -17,8 +17,8 @@ class: ''
 <!-- this is a site to showcase a product. This site was made to understand how
 to animate with CSS. -->
 
-I made this site because I wanted to understand how to to animate properly in
-CSS. I decided to not use any libraries or frameworks since I wanted to understand
+I made this site to understand how to to animate properly in
+CSS. I chose to not use any libraries or frameworks to understand
 what really is going on under the roof.
 
 
