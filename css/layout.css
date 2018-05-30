@@ -81,6 +81,10 @@
   width: 100%;
 }
 
+.proj__contain {
+  width: 100%;
+}
+
 .proj p {
   line-height: 1.5;
   margin: 25px 0;

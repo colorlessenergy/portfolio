@@ -19,7 +19,7 @@ class: white
 the arrows keys to move and jump. -->
 
 I remember playing Mario when I was younger. Doing this project taught me a lot about how powerful plain JavaScript can be when you understand what is happening. I usually
-used atom when I code but I decided to use vs code for the first time on this project. I chose to replicate the Mario because I wanted to improve some stuff in the game.
+used atom when I code but I decided to use vs code for the first time on this project. I chose to replicate the Mario to improve some stuff in the game.
 
 ## built with
 
